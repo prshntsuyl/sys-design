@@ -60,7 +60,7 @@ Here are some articles about system design related topics.
 Of course, if you want to dive into system related topics, here is a good collection of reading list about [services-engineering](https://github.com/mmcgrana/services-engineering), and
 a good collection of material about [distributed systems](http://dancres.github.io/Pages/).
 
-### [[⬆]](#toc) <a name='blog'>Company Engineering Blogs</a> [refer] (/nice_to_have/blogs.md)
+### [[⬆]](#toc) <a name='blog'>Company Engineering Blogs</a> [refer] (nice_to_have/blogs.md)
 
 ### [[⬆]](#toc) <a name='system'>Products and Systems:</a>
 

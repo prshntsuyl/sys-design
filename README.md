@@ -22,14 +22,14 @@ This repository only teaches you how to handle the system design interview with 
 Spend a few minutes questioning the interviewer and agreeing on the scope of the system.
 Remember to make sure you know all the requirements the interviewer didn't tell you about in the beginning.
 
-User cases indicate the main functions of the system, and constraints list the scale of the system such as requests 
+User cases indicate the main functions of the system, and constraints list the scale of the system such as requests
 per second, requests types, data written per second, data read per second.
 
 **High-level architecture design**
 
-Sketch the important components and the connections between them, but don't go into some details. 
+Sketch the important components and the connections between them, but don't go into some details.
 Usually, a scalable system includes webserver (load balancer), service (service partition), database (primary/secondary database cluster plug cache).
- 
+
 **Component design**
 
 For each component, you need to write the specific APIs for each component. You may need to finish
@@ -60,61 +60,11 @@ Here are some articles about system design related topics.
 Of course, if you want to dive into system related topics, here is a good collection of reading list about [services-engineering](https://github.com/mmcgrana/services-engineering), and
 a good collection of material about [distributed systems](http://dancres.github.io/Pages/).
 
-### [[⬆]](#toc) <a name='blog'>Company Engineering Blogs:</a>
-
-If you are going to have an onsite with a company, you should read their engineering blog. 
-
-* [High Scalability](http://highscalability.com/)
-* [The GitHub Blog](https://github.com/blog/category/engineering)
-* [Engineering at Quora](http://engineering.quora.com/)
-* [Yelp Engineering Blog](http://engineeringblog.yelp.com/)
-* [Twitter Engineering](https://engineering.twitter.com/)
-* [Facebook Engineering](https://www.facebook.com/Engineering)
-* [Yammer Engineering](http://eng.yammer.com/blog/)
-* [Etsy Code as Craft](http://codeascraft.com/)
-* [Foursquare Engineering Blog](http://engineering.foursquare.com/)
-* [Airbnb Engineering](https://medium.com/airbnb-engineering)
-* [WebEngage Engineering Blog](http://engineering.webengage.com/)
-* [LinkedIn Engineering](http://engineering.linkedin.com/blog)
-* [The Netflix Tech Blog](http://techblog.netflix.com/)
-* [BankSimple Simple Blog](https://www.simple.com/engineering/)
-* [Square The Corner](http://corner.squareup.com/)
-* [SoundCloud Backstage Blog](https://developers.soundcloud.com/blog/)
-* [Flickr Code](http://code.flickr.net/)
-* [Instagram Engineering](http://instagram-engineering.tumblr.com/)
-* [Dropbox Tech Blog](https://tech.dropbox.com/)
-* [Cloudera Developer Blog](http://blog.cloudera.com/)
-* [Bandcamp Tech](http://bandcamptech.wordpress.com/)
-* [Oyster Tech Blog](http://tech.oyster.com/)
-* [THE REDDIT BLOG](http://www.redditblog.com/)
-* [Groupon Engineering Blog](https://engineering.groupon.com/)
-* [Songkick Technology Blog](http://devblog.songkick.com/)
-* [Google AI Blog](https://ai.googleblog.com/)
-* [Google Developers Blog](https://developers.googleblog.com/)
-* [Pinterest Engineering Blog](http://engineering.pinterest.com/)
-* [Twilio Engineering Blog](http://www.twilio.com/engineering)
-* [Bitly Engineering Blog](http://word.bitly.com/)
-* [Uber Engineering Blog ](https://eng.uber.com/)
-* [Godaddy Engineering](http://engineering.godaddy.com/)
-* [Splunk Blog](http://blogs.splunk.com/)
-* [Coursera Engineering Blog](https://building.coursera.org/)
-* [PayPal Engineering Blog](https://www.paypal-engineering.com/)
-* [Nextdoor Engineering Blog](https://engblog.nextdoor.com/)
-* [Booking.com Development Blog](https://blog.booking.com/)
-* [Microsoft Engineering Blog](https://engineering.microsoft.com/)
-* [Scalyr Engineering Blog](https://blog.scalyr.com/)
-* [Myntra Engineering Blog](https://medium.com/myntra-engineering)
-* [Fastly Blog](https://www.fastly.com/blog/)
-* [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/)
-* [Lyft Engineering Blog](https://eng.lyft.com/)
-* [Wish Engineering](https://medium.com/wish-engineering)
-* [Doordash Engineering](https://doordash.engineering/)
-* [SnowFlake Blog](https://community.snowflake.com/s/blog) 
-* [Palantir Blog](https://medium.com/palantir/tech/home)
+### [[⬆]](#toc) <a name='blog'>Company Engineering Blogs</a> [refer] (/nice_to_have/blogs.md)
 
 ### [[⬆]](#toc) <a name='system'>Products and Systems:</a>
 
-The following papers/articles/slides can help you to understand the general design idea of different real products and systems. 
+The following papers/articles/slides can help you to understand the general design idea of different real products and systems.
 
 * [MapReduce: Simplified Data Processing on Large Clusters](http://static.googleusercontent.com/media/research.google.com/zh-CN/us/archive/mapreduce-osdi04.pdf)
 * [Bigtable: A Distributed Storage System for Structured Data](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/chang06bigtable.pdf)
@@ -150,7 +100,7 @@ The following papers/articles/slides can help you to understand the general desi
 
 ### [[⬆]](#toc) <a name='qs'>Hot Questions and Reference:</a>
 
-There are some good references for each question. The references here are slides and articles. 
+There are some good references for each question. The references here are slides and articles.
 
 **Design a CDN network**  
 Reference:  
@@ -162,8 +112,8 @@ Reference:
 * [Differential Synchronization](https://neil.fraser.name/writing/sync/)
 
 **Design a random ID generation system**  
-Reference: 
-* [Announcing Snowflake](https://blog.twitter.com/2010/announcing-snowflake) 
+Reference:
+* [Announcing Snowflake](https://blog.twitter.com/2010/announcing-snowflake)
 * [snowflake](https://github.com/twitter/snowflake/)
 
 **Design a key-value database**  
@@ -172,13 +122,13 @@ Reference:
 
 **Design the Facebook news feed function**   
 Reference:   
-* [What are best practices for building something like a News Feed?](http://www.quora.com/What-are-best-practices-for-building-something-like-a-News-Feed) 
-* [What are the scaling issues to keep in mind while developing a social network feed?](http://www.quora.com/Activity-Streams/What-are-the-scaling-issues-to-keep-in-mind-while-developing-a-social-network-feed) 
+* [What are best practices for building something like a News Feed?](http://www.quora.com/What-are-best-practices-for-building-something-like-a-News-Feed)
+* [What are the scaling issues to keep in mind while developing a social network feed?](http://www.quora.com/Activity-Streams/What-are-the-scaling-issues-to-keep-in-mind-while-developing-a-social-network-feed)
 * [Activity Feeds Architecture](http://www.slideshare.net/danmckinley/etsy-activity-feeds-architecture)
 
 **Design the Facebook timeline function**   
-Reference: 
-* [Building Timeline](https://www.facebook.com/note.php?note_id=10150468255628920) 
+Reference:
+* [Building Timeline](https://www.facebook.com/note.php?note_id=10150468255628920)
 * [Facebook Timeline](http://highscalability.com/blog/2012/1/23/facebook-timeline-brought-to-you-by-the-power-of-denormaliza.html)
 
 **Design a function to return the top k requests during past time interval**   
@@ -197,12 +147,12 @@ Reference:
 **Design a graph search function**   
 Reference:   
 * [Building out the infrastructure for Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-building-out-the-infrastructure-for-graph-search/10151347573598920)
-* [Indexing and ranking in Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-indexing-and-ranking-in-graph-search/10151361720763920) 
+* [Indexing and ranking in Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-indexing-and-ranking-in-graph-search/10151361720763920)
 * [The natural language interface of Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-the-natural-language-interface-of-graph-search/10151432733048920) and [Erlang at Facebook](http://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf)
 
 **Design a picture sharing system**   
 Reference:   
-* [Flickr Architecture](http://highscalability.com/flickr-architecture) 
+* [Flickr Architecture](http://highscalability.com/flickr-architecture)
 * [Instagram Architecture](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
 
 **Design a search engine**   
@@ -216,14 +166,14 @@ Reference:
 * [Recommender Systems](http://ijcai13.org/files/tutorial_slides/td3.pdf)
 
 **Design a tinyurl system**    
-Reference: 
-* [System Design for Big Data-tinyurl](http://n00tc0d3r.blogspot.com/) 
+Reference:
+* [System Design for Big Data-tinyurl](http://n00tc0d3r.blogspot.com/)
 * [URL Shortener API](https://developers.google.com/url-shortener/?csw=1)
 
 **Design a garbage collection system**    
 Reference:   
 * [Baby's First Garbage Collector](http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/)
- 
+
 **Design a scalable web crawling system**    
 Reference:  
 * [How can I build a web crawler from scratch?](https://www.quora.com/How-can-I-build-a-web-crawler-from-scratch)
@@ -237,7 +187,7 @@ Reference:
 Reference:  
 * [Implementing Real-Time Trending Topics With a Distributed Rolling Count Algorithm in Storm](http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/)   
 * [Early detection of Twitter trends explained](http://snikolov.wordpress.com/2012/11/14/early-detection-of-twitter-trends/)
- 
+
 **Design a cache system**    
 Reference:   
 * [Introduction to Memcached](http://www.slideshare.net/oemebamo/introduction-to-memcached)
@@ -272,7 +222,3 @@ Use design patterns such that it can be reused in multiple applications.
 #### Useful Websites
 
 * [101 Design Patterns & Tips for Developers](http://sourcemaking.com/design-patterns-and-tips)
-
-
-
-
